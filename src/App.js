@@ -1,17 +1,14 @@
+import React from "react";
 import Header from "./Header";
-import Home from "./Home";
+import Footer from "./Footer";
+import Start from "./Start";
 
-function App() {
+export default function App() {
   return (
-    <div className="App min-h-screen bg-teal-100">
-      <div>
+    <div className="min-h-screen bg-blue-50">
       <Header />
-      <Home />
-      </div>
+      <Start/>
+      <Footer />
     </div>
-    
-    
   );
 }
-
-export default App;
