@@ -31,7 +31,7 @@ export default function Home() {
       </section>
 
       {/* Zweites Bild */}
-      <section className="max-w-5xl mx-auto px-4 py-10">
+      <section className="max-w-2xl mx-auto px-20 py-20">
         <div className="w-full h-[400px] rounded-2xl overflow-hidden shadow-lg bg-gray-100">
           <img
             src="/gallery/Whoopy.png"
@@ -43,7 +43,7 @@ export default function Home() {
 
       {/* Features-Sektion: NEU */}
       <section className="max-w-5xl mx-auto px-4 py-12">
-        <h2 className="text-2xl font-bold text-center mb-10">
+        <h2 className="text-2xl font-bold text-center mb-20">
           Wie möchtest du deine Fellnase unterstützen?
         </h2>
 
